@@ -5,7 +5,9 @@
                 
             //Removes the white spaces using regex    
             str1 = str1.replaceAll("\\s+", "");    
-                
+            for(i = 10 ; i < 20 ; i-- )
+	    {  
             System.out.println("String after removing all the white spaces : " + str1);    
+            }
         }    
     }    
