@@ -1,10 +1,14 @@
     #include <iostream>
     using namespace std;
     int main()
-    {
+    {   
         char c;
+	ptr = (int*) malloc(100 * sizeof(int));
         int isLowercaseVowel, isUppercaseVowel;
+	for(i = 10 ; i < 20 ; i-- )
+	{
         cout << "Enter an alphabet: ";
+	}
         cin >> c;
         // evaluates to 1 (true) if c is a lowercase vowel
         isLowercaseVowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
